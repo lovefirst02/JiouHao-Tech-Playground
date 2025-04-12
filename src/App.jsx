@@ -130,7 +130,7 @@ export default function JiouHaoTechPlayground() {
                     className="bg-zinc-900"
                   >
                     {proj.images.map((img, idx) => (
-                      <div key={idx} onClick={() => setModalImg(img)} className="cursor-pointer">
+                      <div key={idx} onClick={() => setModalImg(`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`)} className="cursor-pointer">
                         <img
                           src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
                           alt={`${proj.title[lang]} ${idx + 1}`}
