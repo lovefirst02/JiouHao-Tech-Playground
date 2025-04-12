@@ -26,3 +26,6 @@ git clone https://github.com/your-username/jiouhao-tech-playground.git
 cd jiouhao-tech-playground
 npm install
 npm run dev
+
+🔗 Demo 網站
+👉 https://lovefirst02.github.io/JiouHao-Tech-Playground/
