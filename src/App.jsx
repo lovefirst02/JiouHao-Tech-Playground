@@ -132,7 +132,7 @@ export default function JiouHaoTechPlayground() {
                     {proj.images.map((img, idx) => (
                       <div key={idx} onClick={() => setModalImg(img)} className="cursor-pointer">
                         <img
-                          src={`${import.meta.env.BASE_URL}$\{img.replace(/^\//, '')\}`}
+                          src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
                           alt={`${proj.title[lang]} ${idx + 1}`}
                           className="object-cover h-48 w-full"
                         />
